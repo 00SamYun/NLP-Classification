@@ -1,3 +1,12 @@
+'''
+Create a matrix X of the features of input tweets
+1. Create a training dataset mapping tweets to positive or negative sentiments
+2. Preprocess the raw data
+3. Create a frequency dictionary
+4. Create a 1x3 vector (base_freq, pos_freq, neg_freq) for each word in the tweet
+5. Create a matrix for all tweets
+'''
+
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from string import punctuation
