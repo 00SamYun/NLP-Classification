@@ -1,3 +1,12 @@
+'''
+Classify Sentences Based On Their Positivity Or Negativity 
+1. Create a training and testing dataset
+2. Preprocess the dataset
+3. Create a dictionary of words and their lambda values
+4. Calculate the log prior
+5. Run the model on the test_set
+'''
+
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from string import punctuation
