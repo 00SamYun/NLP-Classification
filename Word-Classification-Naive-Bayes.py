@@ -1,3 +1,13 @@
+'''
+Classify Words Based On Their Positivity Or Negativity
+1. Create a training and testing dataset - input sentences mapped onto positive or negative sentiments
+2. Preprocess the data
+3. Create a frequency dictionary
+4. Calculate the conditional probability of each word using laplacian smoothing
+5. Calculate the lambda of the ratio of each word
+6. Determine the sentiment of the word
+'''
+
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from string import punctuation
